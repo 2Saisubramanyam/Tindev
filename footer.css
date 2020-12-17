@@ -1,0 +1,33 @@
+.fottu{
+    position: fixed;
+    bottom: 2vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.fottu .MuiIconButton-root{
+    background-color: white;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+}
+
+.fottu .replay{
+    padding: 3vh;
+    color: red;
+}
+.fottu .close{
+    padding: 3vh;
+    color: rgb(0, 255, 106);
+}
+.fottu .start{
+    padding: 3vh;
+    color: rgb(153, 0, 255);
+}
+.fottu .fav{
+    padding: 3vh;
+    color: rgb(255, 0, 179);
+}
+.fottu .flash{
+    padding: 3vh;
+    color:orange;
+}
